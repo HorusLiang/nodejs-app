@@ -74,7 +74,7 @@ app.get("/rest/getAllUsers", (req, res) => {
    });
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my GraphQL API");
+  res.send("Welcome to my GraphQL API, Thanks a lot");
 });
 
 app.listen(PORT, () => {
